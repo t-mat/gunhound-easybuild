@@ -1,0 +1,13 @@
+DTAR_*/
+x64/
+obj/
+
+*.db
+*.opendb
+*.suo
+
+gxlib/platform/
+
+gunhound/opencv_*.dll
+gunhound/*.exe
+gunhound/config.dat
