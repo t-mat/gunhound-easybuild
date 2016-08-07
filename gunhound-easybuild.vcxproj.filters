@@ -1,0 +1,1177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="gxLib">
+      <UniqueIdentifier>{4ac8aa23-e9a5-494c-b538-a186612378d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gxLib\util">
+      <UniqueIdentifier>{c66e9345-30d0-49a3-849b-745df3213502}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gxLib\hard">
+      <UniqueIdentifier>{98c2ca8f-2ab4-4c56-b431-e5f1ba61c1f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gxLib\hard\win32DirectX9">
+      <UniqueIdentifier>{cc53ce71-037f-4f42-816f-750d41f203b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gxLib\util\actManager">
+      <UniqueIdentifier>{36383ce9-e4f6-48f5-a62f-361bd4f1d9fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gxLib\util\command">
+      <UniqueIdentifier>{22f5e1ef-3062-4fd7-951c-6ee40076e8b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gxLib\util\csv">
+      <UniqueIdentifier>{105dda8b-3838-40b3-970c-83b70aad9423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gxLib\util\Font">
+      <UniqueIdentifier>{4c394c13-d82e-460e-bd68-5810618e246c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gxLib\util\gxImage">
+      <UniqueIdentifier>{1fc67934-d465-44c0-8cc9-cc39e40fef34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gxLib\util\hitManager">
+      <UniqueIdentifier>{084c649c-f79b-4597-9661-13a34e07d88a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gxLib\hard\win32cmn">
+      <UniqueIdentifier>{b3e0654e-f616-4d16-848b-56e64074693e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gunhound">
+      <UniqueIdentifier>{d664f898-ea5d-46f8-af7f-663327ab77a7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gxlib\gxLib\gx.h">
+      <Filter>gxLib</Filter>
+    </ClInclude>
+    <ClInclude Include="gxlib\gxLib\gxDebug.h">
+      <Filter>gxLib</Filter>
+    </ClInclude>
+    <ClInclude Include="gxlib\gxLib\gxMovieManager.h">
+      <Filter>gxLib</Filter>
+    </ClInclude>
+    <ClInclude Include="gxlib\gxLib\gxOrderManager.h">
+      <Filter>gxLib</Filter>
+    </ClInclude>
+    <ClInclude Include="gxlib\gxLib\gxPadManager.h">
+      <Filter>gxLib</Filter>
+    </ClInclude>
+    <ClInclude Include="gxlib\gxLib\gxRender.h">
+      <Filter>gxLib</Filter>
+    </ClInclude>
+    <ClInclude Include="gxlib\gxLib\gxSoundManager.h">
+      <Filter>gxLib</Filter>
+    </ClInclude>
+    <ClInclude Include="gxlib\gxLib\gxTexManager.h">
+      <Filter>gxLib</Filter>
+    </ClInclude>
+    <ClInclude Include="gxlib\gxLib\gxWebManager.h">
+      <Filter>gxLib</Filter>
+    </ClInclude>
+    <ClInclude Include="gxlib\gxLib\hard\win32DirectX9\dxDraw.h">
+      <Filter>gxLib\hard\win32DirectX9</Filter>
+    </ClInclude>
+    <ClInclude Include="gxlib\gxLib\hard\win32DirectX9\dxPad.h">
+      <Filter>gxLib\hard\win32DirectX9</Filter>
+    </ClInclude>
+    <ClInclude Include="gxlib\gxLib\hard\win32DirectX9\dxsound.h">
+      <Filter>gxLib\hard\win32DirectX9</Filter>
+    </ClInclude>
+    <ClInclude Include="gxlib\gxLib\hard\win32DirectX9\machine.h">
+      <Filter>gxLib\hard\win32DirectX9</Filter>
+    </ClInclude>
+    <ClInclude Include="gxlib\gxLib\util\CFilePNG.h">
+      <Filter>gxLib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="gxlib\gxLib\util\CFileTarga.h">
+      <Filter>gxLib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="gxlib\gxLib\util\gxUtil.h">
+      <Filter>gxLib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="gxlib\gxLib\util\actManager\CActManager.h">
+      <Filter>gxLib\util\actManager</Filter>
+    </ClInclude>
+    <ClInclude Include="gxlib\gxLib\util\command\CWazaCommand.h">
+      <Filter>gxLib\util\command</Filter>
+    </ClInclude>
+    <ClInclude Include="gxlib\gxLib\util\csv\CCsv.h">
+      <Filter>gxLib\util\csv</Filter>
+    </ClInclude>
+    <ClInclude Include="gxlib\gxLib\util\Font\CFontManager.h">
+      <Filter>gxLib\util\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="gxlib\gxLib\util\Font\CKanjiTbl.h">
+      <Filter>gxLib\util\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="gxlib\gxLib\util\gxImage\CGXImage.h">
+      <Filter>gxLib\util\gxImage</Filter>
+    </ClInclude>
+    <ClInclude Include="gxlib\gxLib\util\hitManager\CCollisionManager.h">
+      <Filter>gxLib\util\hitManager</Filter>
+    </ClInclude>
+    <ClInclude Include="gxlib\gxLib\hard\win32cmn\CFileWave.h">
+      <Filter>gxLib\hard\win32cmn</Filter>
+    </ClInclude>
+    <ClInclude Include="gxlib\gxLib\hard\win32cmn\COpenCVMovie.h">
+      <Filter>gxLib\hard\win32cmn</Filter>
+    </ClInclude>
+    <ClInclude Include="gxlib\gxLib\hard\win32cmn\resource.h">
+      <Filter>gxLib\hard\win32cmn</Filter>
+    </ClInclude>
+    <ClInclude Include="gxlib\gxLib\hard\win32cmn\targetver.h">
+      <Filter>gxLib\hard\win32cmn</Filter>
+    </ClInclude>
+    <ClInclude Include="gxlib\gxLib\hard\win32cmn\win32cmn.h">
+      <Filter>gxLib\hard\win32cmn</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\appendTexture.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\DashBoard\CDashBoard.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\DashBoard\CDashEnvironment.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\DashBoard\CDashPadConfig.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\DEFSound.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\DEFTexture.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\GGA2.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\GGA2X.H">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\CbackGround.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\CBellowsSprite.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\CEasyLeynos.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\CEffect.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\CFadeManager.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\CHitManager.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\CMechBone.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\CObj.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\CPenduram.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\CStage.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Effect\CEffAtkHomingMissile.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Effect\CEffAtkLaser.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Effect\CEffAtkPunch.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Effect\CEffBomb.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Effect\CEffBrokenFloor.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Effect\CEffEagis.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Effect\CEffeneBitLaser.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Effect\CEffEnegun.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Effect\CEffFire.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Effect\CEffHound.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Effect\CEffMachinegun.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Effect\CEffPerticle.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Effect\CEffSandStorm.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Effect\CEffScene01.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Effect\CEffScene02.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Effect\CEffScene03.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Effect\CEffScene0A01.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Effect\CEffScene0A02.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Effect\CEffScn04Tree.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Effect\CEffShipBurnia.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Effect\CEffWater.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Effect\CEffZanzo.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Effect\EffectBase.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Effect\ItemBox.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\CEne0000Dummy.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\CEne0001EneBullet.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\CGunHound.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\cgunhoundarms.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\cgunhoundtbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\CSoldierBase.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\enemy.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CAtkH0001Missile.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CAtkH0002GMissile.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CAtkH0003Effect.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneCommon.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0000PunchBall.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0002Commanch.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0003Vorzoy.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0004Tachikoma.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0005TransHeli.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0006UGTortika.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0007YusouHeli.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0008BloodSocker.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0008GunTank.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0101HeavyTank.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0102NightSpider.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0103ClubGunner.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0104LightTank.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0105TankGuard.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0106Yagura.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0107Walker.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0108Hovered.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0201VorzoyFly.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0202VorzoyWP.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0203Serpent.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0203Snake.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0204Grazzi.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0205Danmaku.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0206Bee.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0207TransShips.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0301Gunpelly.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0303Gerwalk.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0304Bee.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0305Missile.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0401MovingCannon.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0403Tarantura.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0404GravityStar.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0405Nancy.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0406Carrymissile.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0407Nautilus.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0408Powerdsuit.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0409SlideCannon.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0410Wall.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0411Stunbarrier.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0412Stunbarrier.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0413Fannel.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0501PlasmaMachine.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0503HoundFly.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0504Boss.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneEx0001CannonTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneEx0002LaserTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneEx0003ShotTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneEx0004MissileTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneEx0005BazTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneEx0006TankTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneEx0007NozzleTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0001MLRSTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0002CommanchTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0003VorzoyTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0004TachikomaTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0005TransHeliTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0006UGTortikaTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0007YusouHeliTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0008BloodSockerCustomTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0008GunTankTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0101HeavyTankTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0102NightSpiderTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0103ClubGunnerTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0104LightTankTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0105TankGuardTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0106YaguraTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0107WalkerTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0108HoveredTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0201VorzoyFlyTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0202VorzoyWPTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0204GrazziTBL.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0206JourikusensyaTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0207TransShipsTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0301ArmoredCarTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0304BeeTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0401MovingCannonTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0402BloodSockerTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0403TaranturaTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0405NancyTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0406CarrymissileTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0407NautilusTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0408PowerdsuitTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0410WallTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0411StunbarrierTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0501BattlecannonTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0502BattletotikaTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\CEneH0503TapacheTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\EnemyTbl\TexEneStg0302Tbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\Extra\CEneEx0001Cannon.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\Extra\CEneEx0002Laser.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\Extra\CEneEx0003Shot.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\Extra\CEneEx0004Missile.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\Extra\CEneEx0005Wii.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\Extra\CEneEx0006Tank.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\Extra\CEneEx0007Nozzle.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\Extra\CEneEx0008Bomb.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\Extra\CEneEx0009Body.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\Extra\CEneEx0010Suihei.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\HoundsEnemy.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\globals.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\GunHound\cmenu.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\GunHound\Cockpit\Ccockpit.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\GunHound\Cockpit\CFaceScreen.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\GunHound\Cockpit\CMsgManager.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\GunHound\Cockpit\CMsgWindow.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\GunHound\Cockpit\CRader.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\GunHound\Cockpit\CRaderDamage.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\GunHound\Cockpit\CStageClear.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\GunHound\GhStringTbl.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\GunHound\menu\CBriefing.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\GunHound\menu\CContinue.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\GunHound\menu\CCustomHound.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\GunHound\menu\CEndingDemo.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\GunHound\menu\CMainMenu.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\GunHound\menu\cmissionmsg.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\GunHound\menu\COpeningDemo.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\GunHound\menu\CSetUp.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\GunHound.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\sprdat.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Stage\CBaseExtra.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Stage\CBaseJungle.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Stage\CBaseKichi.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Stage\CBaseMountain.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Stage\CBaseRiver.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Stage\CScriptEngine.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Stage\CStageBase.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Stage\CStageLabo.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Stage\CStageStart.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\Stage\CStageTutorial.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\vii_def.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunhound\vii_src\vii_sub.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+    <ClInclude Include="gunhound\src\gunvalken.h">
+      <Filter>gunhound</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gxlib\gxLib\gxDebug.cpp">
+      <Filter>gxLib</Filter>
+    </ClCompile>
+    <ClCompile Include="gxlib\gxLib\gxLib.cpp">
+      <Filter>gxLib</Filter>
+    </ClCompile>
+    <ClCompile Include="gxlib\gxLib\gxMain.cpp">
+      <Filter>gxLib</Filter>
+    </ClCompile>
+    <ClCompile Include="gxlib\gxLib\gxMovieManager.cpp">
+      <Filter>gxLib</Filter>
+    </ClCompile>
+    <ClCompile Include="gxlib\gxLib\gxOrderManager.cpp">
+      <Filter>gxLib</Filter>
+    </ClCompile>
+    <ClCompile Include="gxlib\gxLib\gxPadManager.cpp">
+      <Filter>gxLib</Filter>
+    </ClCompile>
+    <ClCompile Include="gxlib\gxLib\gxRender.cpp">
+      <Filter>gxLib</Filter>
+    </ClCompile>
+    <ClCompile Include="gxlib\gxLib\gxSoundManager.cpp">
+      <Filter>gxLib</Filter>
+    </ClCompile>
+    <ClCompile Include="gxlib\gxLib\gxTexManager.cpp">
+      <Filter>gxLib</Filter>
+    </ClCompile>
+    <ClCompile Include="gxlib\gxLib\gxWebManager.cpp">
+      <Filter>gxLib</Filter>
+    </ClCompile>
+    <ClCompile Include="gxlib\gxLib\hard\win32DirectX9\appMain.cpp">
+      <Filter>gxLib\hard\win32DirectX9</Filter>
+    </ClCompile>
+    <ClCompile Include="gxlib\gxLib\hard\win32DirectX9\dxDraw.cpp">
+      <Filter>gxLib\hard\win32DirectX9</Filter>
+    </ClCompile>
+    <ClCompile Include="gxlib\gxLib\hard\win32DirectX9\dxPad.cpp">
+      <Filter>gxLib\hard\win32DirectX9</Filter>
+    </ClCompile>
+    <ClCompile Include="gxlib\gxLib\hard\win32DirectX9\dxSound.cpp">
+      <Filter>gxLib\hard\win32DirectX9</Filter>
+    </ClCompile>
+    <ClCompile Include="gxlib\gxLib\util\CFilePNG.cpp">
+      <Filter>gxLib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="gxlib\gxLib\util\CFileTarga.cpp">
+      <Filter>gxLib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="gxlib\gxLib\util\gxUtil.cpp">
+      <Filter>gxLib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="gxlib\gxLib\util\actManager\CActManager.cpp">
+      <Filter>gxLib\util\actManager</Filter>
+    </ClCompile>
+    <ClCompile Include="gxlib\gxLib\util\command\CWazaCommand.cpp">
+      <Filter>gxLib\util\command</Filter>
+    </ClCompile>
+    <ClCompile Include="gxlib\gxLib\util\csv\CCsv.cpp">
+      <Filter>gxLib\util\csv</Filter>
+    </ClCompile>
+    <ClCompile Include="gxlib\gxLib\util\Font\CFontManager.cpp">
+      <Filter>gxLib\util\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="gxlib\gxLib\util\gxImage\CGXImage.cpp">
+      <Filter>gxLib\util\gxImage</Filter>
+    </ClCompile>
+    <ClCompile Include="gxlib\gxLib\util\hitManager\CCollisionManager.cpp">
+      <Filter>gxLib\util\hitManager</Filter>
+    </ClCompile>
+    <ClCompile Include="gxlib\gxLib\hard\win32cmn\CFileWave.cpp">
+      <Filter>gxLib\hard\win32cmn</Filter>
+    </ClCompile>
+    <ClCompile Include="gxlib\gxLib\hard\win32cmn\COggVorbis.cpp">
+      <Filter>gxLib\hard\win32cmn</Filter>
+    </ClCompile>
+    <ClCompile Include="gxlib\gxLib\hard\win32cmn\COpenCVMovie.cpp">
+      <Filter>gxLib\hard\win32cmn</Filter>
+    </ClCompile>
+    <ClCompile Include="gxlib\gxLib\hard\win32cmn\Win32cmn.cpp">
+      <Filter>gxLib\hard\win32cmn</Filter>
+    </ClCompile>
+    <ClCompile Include="gameMain.cpp" />
+    <ClCompile Include="gunhound\src\gunhound\DashBoard\CDashBoard.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\DashBoard\CDashEnvironment.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\DashBoard\CDashPadConfig.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\ghLib.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\ghMain.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\CbackGround.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\CBellowsSprite.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\CEasyLeynos.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\CEffect.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\CFadeManager.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\CHitManager.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\CMechBone.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\CObj.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\CPenduram.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\CStage.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Effect\CEffAtkHomingMissile.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Effect\CEffAtkLaser.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Effect\CEffAtkPunch.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Effect\CEffBomb.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Effect\CEffBrokenFloor.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Effect\CEffEagis.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Effect\CEffectBase.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Effect\CEffeneBitLaser.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Effect\CEffEnegun.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Effect\CEffFire.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Effect\CEffHound.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Effect\CEffMachinegun.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Effect\CEffPerticle.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Effect\CEffSandStorm.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Effect\CEffScene01.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Effect\CEffScene02.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Effect\CEffScene03.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Effect\CEffScene0A01.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Effect\CEffScene0A02.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Effect\CEffScn04Tree.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Effect\CEffShipBurnia.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Effect\CEffWater.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Effect\CEffZanzo.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Effect\eff_atk.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Effect\eff_cmn.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Effect\eff_ene.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Effect\ItemBox.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\CEne0000Dummy.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\CEne0001EneBullet.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\CGunHound.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\CSoldierBase.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\EnemyBase.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CAtkH0001Missile.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CAtkH0002GMissile.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CAtkH0003Effect.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneCommon.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0000PunchBall.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0002Commanch.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0003Vorzoy.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0004Tachikoma.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0005TransHeli.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0006UGTortika.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0007YusouHeli.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0008BloodSocker.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0008GunTank.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0101HeavyTank.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0102NightSpider.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0103ClubGunner.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0104LightTank.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0105TankGuard.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0106Yagura.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0107Walker.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0108Hovered.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0201VorzoyFly.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0202VorzoyWP.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0203Serpent.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0203Snake.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0204Grazzi.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0205Danmaku.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0206Bee.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0207TransShips.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0301Gunpelly.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0303Gerwalk.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0304Bee.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0305Missile.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0401MovingCannon.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0403Tarantura.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0404GravityStar.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0405Nancy.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0406Carrymissile.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0407Nautilus.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0408Powerdsuit.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0409SlideCannon.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0410Wall.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0411Stunbarrier.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0412Stunbarrier.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0413Fannel.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0501PlasmaMachine.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0503HoundFly.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\CEneH0504Boss.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\Extra\CEneEx0001Cannon.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\Extra\CEneEx0002Laser.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\Extra\CEneEx0003Shot.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\Extra\CEneEx0004Missile.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\Extra\CEneEx0005Wii.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\Extra\CEneEx0006Tank.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\Extra\CEneEx0007Nozzle.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\Extra\CEneEx0008Bomb.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\Extra\CEneEx0009Body.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\Extra\CEneEx0010Suihei.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Enemy\HoundsEnemy\HoundsEnemy.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\globals.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\GunHound\Cockpit\CCockpit.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\GunHound\Cockpit\CFaceScreen.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\GunHound\Cockpit\CMsgManager.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\GunHound\Cockpit\CMsgWindow.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\GunHound\Cockpit\CRader.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\GunHound\Cockpit\CRaderDamage.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\GunHound\Cockpit\CStageClear.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\GunHound\GhStringTbl.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\GunHound\HoundMain.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\GunHound\menu\CBriefing.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\GunHound\menu\CContinue.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\GunHound\menu\CCustomHound.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\GunHound\menu\CEndingDemo.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\GunHound\menu\CMainMenu.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\GunHound\menu\COpeningDemo.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\GunHound\menu\CSetUp.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\sprdat.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Stage\CBaseExtra.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Stage\CBaseJungle.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Stage\CBaseKichi.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Stage\CBaseMountain.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Stage\CBaseRiver.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Stage\CScriptEngine.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Stage\CStageBase.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Stage\CStageLabo.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Stage\CStageStart.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\Stage\CStageTutorial.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\vii_main.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\vii_src\vii_sub.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+    <ClCompile Include="gunhound\src\gunhound\winMatrix.cpp">
+      <Filter>gunhound</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
