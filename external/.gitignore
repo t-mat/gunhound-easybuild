@@ -17,3 +17,6 @@ libogg-1.3.2/
 libvorbis-1.3.5/
 opencv/
 PortableGit/
+
+!VS2015/libogg-1.3.2/
+!VS2015/libvorbis-1.3.5/
