@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{662cb9a6-1859-4a1b-b34e-3e307dca2bd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gxLib">
+      <UniqueIdentifier>{8837cdc9-1ff6-4861-8647-56d4d3263bfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gxLib\hard">
+      <UniqueIdentifier>{4aa72a56-aec6-416b-ba9c-eee4f3058bb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gxLib\util">
+      <UniqueIdentifier>{91d7b7d8-0e35-45cc-b79a-d930d4aa55b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gxLib\util\actManager">
+      <UniqueIdentifier>{93fd38fd-4821-43ae-ad21-5b27259a7d33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gxLib\util\command">
+      <UniqueIdentifier>{a97e5783-5b6d-4503-92ec-c0fe73fad222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gxLib\util\csv">
+      <UniqueIdentifier>{01d85d88-16f4-4366-b18f-655f2172d3d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gxLib\util\hitManager">
+      <UniqueIdentifier>{f1330f81-80d8-4f77-adcf-264eaae1e365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gxLib\util\Font">
+      <UniqueIdentifier>{e3ceec4d-1d23-4c7f-986b-e0cfb73cb66e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gxLib\util\gxImage">
+      <UniqueIdentifier>{c6b1eb46-9ae3-49b2-9708-a23517ff20df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\visor">
+      <UniqueIdentifier>{c6c11837-ccc2-4a62-ac07-2b9c69740abb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\gxLib\gxTexManager.cpp">
+      <Filter>Source Files\gxLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gxLib\gxWebManager.cpp">
+      <Filter>Source Files\gxLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gxLib\gxDebug.cpp">
+      <Filter>Source Files\gxLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gxLib\gxLib.cpp">
+      <Filter>Source Files\gxLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gxLib\gxMain.cpp">
+      <Filter>Source Files\gxLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gxLib\gxMovieManager.cpp">
+      <Filter>Source Files\gxLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gxLib\gxOrderManager.cpp">
+      <Filter>Source Files\gxLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gxLib\gxPadManager.cpp">
+      <Filter>Source Files\gxLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gxLib\gxRender.cpp">
+      <Filter>Source Files\gxLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gxLib\gxSoundManager.cpp">
+      <Filter>Source Files\gxLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gxLib\util\gxUtil.cpp">
+      <Filter>Source Files\gxLib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gxLib\util\CFileTarga.cpp">
+      <Filter>Source Files\gxLib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gxLib\util\actManager\CActManager.cpp">
+      <Filter>Source Files\gxLib\util\actManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gxLib\util\command\CWazaCommand.cpp">
+      <Filter>Source Files\gxLib\util\command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gxLib\util\csv\CCsv.cpp">
+      <Filter>Source Files\gxLib\util\csv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gxLib\util\Font\CFontManager.cpp">
+      <Filter>Source Files\gxLib\util\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gameMain.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gxLib\util\gxImage\CGXImage.cpp">
+      <Filter>Source Files\gxLib\util\gxImage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\visor\visorizer.cpp">
+      <Filter>Source Files\src\visor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gxLib\hard\win32DirectX9\dxSound.cpp">
+      <Filter>Source Files\gxLib\hard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gxLib\hard\win32DirectX9\appMain.cpp">
+      <Filter>Source Files\gxLib\hard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gxLib\hard\win32DirectX9\dxDraw.cpp">
+      <Filter>Source Files\gxLib\hard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gxLib\hard\win32DirectX9\dxPad.cpp">
+      <Filter>Source Files\gxLib\hard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gxLib\hard\win32cmn\COggVorbis.cpp">
+      <Filter>Source Files\gxLib\hard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gxLib\hard\win32cmn\COpenCVMovie.cpp">
+      <Filter>Source Files\gxLib\hard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gxLib\hard\win32cmn\Win32cmn.cpp">
+      <Filter>Source Files\gxLib\hard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gxLib\hard\win32cmn\CFileWave.cpp">
+      <Filter>Source Files\gxLib\hard</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\gxLib\gxSoundManager.h">
+      <Filter>Source Files\gxLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gxLib\gxTexManager.h">
+      <Filter>Source Files\gxLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gxLib\gxWebManager.h">
+      <Filter>Source Files\gxLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gxLib\gx.h">
+      <Filter>Source Files\gxLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gxLib\gxDebug.h">
+      <Filter>Source Files\gxLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gxLib\gxMovieManager.h">
+      <Filter>Source Files\gxLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gxLib\gxOrderManager.h">
+      <Filter>Source Files\gxLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gxLib\gxPadManager.h">
+      <Filter>Source Files\gxLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gxLib\gxRender.h">
+      <Filter>Source Files\gxLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gxLib\util\CFileTarga.h">
+      <Filter>Source Files\gxLib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gxLib\util\gxUtil.h">
+      <Filter>Source Files\gxLib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gxLib\util\actManager\CActManager.h">
+      <Filter>Source Files\gxLib\util\actManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gxLib\util\command\CWazaCommand.h">
+      <Filter>Source Files\gxLib\util\command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gxLib\util\csv\CCsv.h">
+      <Filter>Source Files\gxLib\util\csv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gxLib\util\Font\CFontManager.h">
+      <Filter>Source Files\gxLib\util\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gxLib\util\Font\CKanjiTbl.h">
+      <Filter>Source Files\gxLib\util\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gxLib\util\gxImage\CGXImage.h">
+      <Filter>Source Files\gxLib\util\gxImage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\visor\visorizer.h">
+      <Filter>Source Files\src\visor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gxLib\hard\win32DirectX9\dxPad.h">
+      <Filter>Source Files\gxLib\hard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gxLib\hard\win32DirectX9\dxsound.h">
+      <Filter>Source Files\gxLib\hard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gxLib\hard\win32DirectX9\machine.h">
+      <Filter>Source Files\gxLib\hard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gxLib\hard\win32DirectX9\dxDraw.h">
+      <Filter>Source Files\gxLib\hard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gxLib\hard\win32cmn\COpenCVMovie.h">
+      <Filter>Source Files\gxLib\hard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gxLib\hard\win32cmn\resource.h">
+      <Filter>Source Files\gxLib\hard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gxLib\hard\win32cmn\targetver.h">
+      <Filter>Source Files\gxLib\hard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gxLib\hard\win32cmn\win32cmn.h">
+      <Filter>Source Files\gxLib\hard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gxLib\hard\win32cmn\CFileWave.h">
+      <Filter>Source Files\gxLib\hard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gxlib.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\gxLib\hard\win32cmn\gxLib.ico">
+      <Filter>Source Files\gxLib\hard</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\gxLib\hard\win32cmn\resource.rc">
+      <Filter>Source Files\gxLib\hard</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

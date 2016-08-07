@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{15A58F74-F5CE-47F9-81A3-C15BE1D50102}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>DirectX</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)\;$(SolutionDir)\platform\Windows\include\;$(SolutionDir)\src;$(SolutionDir)\platform\Windows\include\OpenCV;$(SolutionDir)\platform\Windows\include\directx9</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86;$(SolutionDir)\platform\Windows\lib;$(SolutionDir)\platform\Windows\lib\directx9\x86</LibraryPath>
+    <OutDir>$(SolutionDir)run\</OutDir>
+    <IntDir>$(Configuration)\$(Platform)\</IntDir>
+    <TargetName>d86_$(TargetName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)\;$(SolutionDir)\platform\Windows\include\;$(SolutionDir)\src;$(SolutionDir)\platform\Windows\include\OpenCV;$(SolutionDir)\platform\Windows\include\directx9</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64;$(SolutionDir)\platform\Windows\lib;$(SolutionDir)\platform\Windows\lib\directx9\x64</LibraryPath>
+    <OutDir>$(SolutionDir)run\</OutDir>
+    <IntDir>$(Configuration)\$(Platform)\</IntDir>
+    <TargetName>d64_$(TargetName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)\;$(SolutionDir)\platform\Windows\include\;$(SolutionDir)\src;$(SolutionDir)\platform\Windows\include\OpenCV;$(SolutionDir)\platform\Windows\include\directx9</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86;$(SolutionDir)\platform\Windows\lib;$(SolutionDir)\platform\Windows\lib\directx9\x86</LibraryPath>
+    <OutDir>$(SolutionDir)run\</OutDir>
+    <IntDir>$(Configuration)\$(Platform)\</IntDir>
+    <TargetName>$(TargetName)(x86)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)\;$(SolutionDir)\platform\Windows\include\;$(SolutionDir)\src;$(SolutionDir)\platform\Windows\include\OpenCV;$(SolutionDir)\platform\Windows\include\directx9</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64;$(SolutionDir)\platform\Windows\lib;$(SolutionDir)\platform\Windows\lib\directx9\x64</LibraryPath>
+    <OutDir>$(SolutionDir)run\</OutDir>
+    <IntDir>$(Configuration)\$(Platform)\</IntDir>
+    <TargetName>$(TargetName)(x64)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions);</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(IntDir)$(TargetName).pdb</ProgramDatabaseFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions);</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions);</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions);</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\gxLib\gxDebug.cpp" />
+    <ClCompile Include="..\..\gxLib\gxLib.cpp" />
+    <ClCompile Include="..\..\gxLib\gxMain.cpp" />
+    <ClCompile Include="..\..\gxLib\gxMovieManager.cpp" />
+    <ClCompile Include="..\..\gxLib\gxOrderManager.cpp" />
+    <ClCompile Include="..\..\gxLib\gxPadManager.cpp" />
+    <ClCompile Include="..\..\gxLib\gxRender.cpp" />
+    <ClCompile Include="..\..\gxLib\gxSoundManager.cpp" />
+    <ClCompile Include="..\..\gxLib\gxTexManager.cpp" />
+    <ClCompile Include="..\..\gxLib\gxWebManager.cpp" />
+    <ClCompile Include="..\..\gxLib\hard\win32cmn\CFileWave.cpp" />
+    <ClCompile Include="..\..\gxLib\hard\win32cmn\COggVorbis.cpp" />
+    <ClCompile Include="..\..\gxLib\hard\win32cmn\COpenCVMovie.cpp" />
+    <ClCompile Include="..\..\gxLib\hard\win32cmn\Win32cmn.cpp" />
+    <ClCompile Include="..\..\gxLib\hard\win32DirectX9\appMain.cpp" />
+    <ClCompile Include="..\..\gxLib\hard\win32DirectX9\dxDraw.cpp" />
+    <ClCompile Include="..\..\gxLib\hard\win32DirectX9\dxPad.cpp" />
+    <ClCompile Include="..\..\gxLib\hard\win32DirectX9\dxSound.cpp" />
+    <ClCompile Include="..\..\gxLib\util\actManager\CActManager.cpp" />
+    <ClCompile Include="..\..\gxLib\util\CFileTarga.cpp" />
+    <ClCompile Include="..\..\gxLib\util\command\CWazaCommand.cpp" />
+    <ClCompile Include="..\..\gxLib\util\csv\CCsv.cpp" />
+    <ClCompile Include="..\..\gxLib\util\Font\CFontManager.cpp" />
+    <ClCompile Include="..\..\gxLib\util\gxImage\CGXImage.cpp" />
+    <ClCompile Include="..\..\gxLib\util\gxUtil.cpp" />
+    <ClCompile Include="..\..\src\gameMain.cpp" />
+    <ClCompile Include="..\..\src\visor\visorizer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\gxlib.h" />
+    <ClInclude Include="..\..\gxLib\gx.h" />
+    <ClInclude Include="..\..\gxLib\gxDebug.h" />
+    <ClInclude Include="..\..\gxLib\gxMovieManager.h" />
+    <ClInclude Include="..\..\gxLib\gxOrderManager.h" />
+    <ClInclude Include="..\..\gxLib\gxPadManager.h" />
+    <ClInclude Include="..\..\gxLib\gxRender.h" />
+    <ClInclude Include="..\..\gxLib\gxSoundManager.h" />
+    <ClInclude Include="..\..\gxLib\gxTexManager.h" />
+    <ClInclude Include="..\..\gxLib\gxWebManager.h" />
+    <ClInclude Include="..\..\gxLib\hard\win32cmn\CFileWave.h" />
+    <ClInclude Include="..\..\gxLib\hard\win32cmn\COpenCVMovie.h" />
+    <ClInclude Include="..\..\gxLib\hard\win32cmn\resource.h" />
+    <ClInclude Include="..\..\gxLib\hard\win32cmn\targetver.h" />
+    <ClInclude Include="..\..\gxLib\hard\win32cmn\win32cmn.h" />
+    <ClInclude Include="..\..\gxLib\hard\win32DirectX9\dxDraw.h" />
+    <ClInclude Include="..\..\gxLib\hard\win32DirectX9\dxPad.h" />
+    <ClInclude Include="..\..\gxLib\hard\win32DirectX9\dxsound.h" />
+    <ClInclude Include="..\..\gxLib\hard\win32DirectX9\machine.h" />
+    <ClInclude Include="..\..\gxLib\util\actManager\CActManager.h" />
+    <ClInclude Include="..\..\gxLib\util\CFileTarga.h" />
+    <ClInclude Include="..\..\gxLib\util\command\CWazaCommand.h" />
+    <ClInclude Include="..\..\gxLib\util\csv\CCsv.h" />
+    <ClInclude Include="..\..\gxLib\util\Font\CFontManager.h" />
+    <ClInclude Include="..\..\gxLib\util\Font\CKanjiTbl.h" />
+    <ClInclude Include="..\..\gxLib\util\gxImage\CGXImage.h" />
+    <ClInclude Include="..\..\gxLib\util\gxUtil.h" />
+    <ClInclude Include="..\..\src\visor\visorizer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\gxLib\hard\win32cmn\gxLib.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\gxLib\hard\win32cmn\resource.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
