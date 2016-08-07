@@ -26,8 +26,8 @@
 //#define PLATFORM_IOS
 //#define PLATFORM_COCOS2DX
 
-#define WINDOW_W (320)
-#define WINDOW_H (320)
+#define WINDOW_W (480)
+#define WINDOW_H (272)
 
 //#define MAX_ORDER_NUM (4096)		//グラフィックのオーダー（同時）限界数
 #define MAX_ORDER_NUM (40000*2)		//グラフィックのオーダー（同時）限界数
