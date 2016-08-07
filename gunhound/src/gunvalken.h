@@ -256,7 +256,7 @@ public:
 #ifdef GUNHOUND
 		if(m_sQuakeTime>0)
 		{
-			return (viiMath::Cos( (m_sWorldTimer%36)*60 )*m_sQuakeTime)/400;
+			return static_cast<Sint32>(viiMath::Cos( (m_sWorldTimer%36)*60 )*m_sQuakeTime)/400;
 		}
 		QuakeFlag = gxFalse;
 		return 0;

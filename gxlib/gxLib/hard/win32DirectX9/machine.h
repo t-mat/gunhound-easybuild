@@ -134,7 +134,7 @@ public:
 
 	void SetArg( int n , gxChar *pStr )
 	{
-		Uint32 len = strlen( pStr );
+		Uint32 len = static_cast<Uint32>( strlen( pStr ) );
 
 		if( m_pArg[n] ) SAFE_DELETES( m_pArg[n] );
 
