@@ -30,3 +30,5 @@ if not exist freeglut-MSVC.zip .\curl -LO http://files.transmissionzero.co.uk/so
 
 call .\build-oggvorbis.cmd
 call .\copy-libraries.cmd
+
+popd
