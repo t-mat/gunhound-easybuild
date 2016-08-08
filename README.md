@@ -1,22 +1,23 @@
 ﻿## これはなに？
 
-[ガルル研ライブラリにて公開されている「機装猟兵ガンハウンド」](http://garuru.co.jp/lib/index.php?HelloWorld)」を楽にビルドするものです。
+[ガルル研ライブラリにて公開されている「機装猟兵ガンハウンド」](http://garuru.co.jp/lib/index.php?HelloWorld)を楽にビルドするものです。
+
+VC++2015 以外のビルドに必要なソフトについてｈ、インストールは行わず、ファイルの展開だけを行います。これによってシステムへの影響が少ないようにしています。
 
 
 ## どうすればいいの？
 
 - Visual Studio (VC++) 2015 をインストールする
-- `git clone` を行う
 - 以下のコマンドを実行
 
 ```
-cd /d \path\to\your\gunhound-easybuild\
+cd /d C:\
+git clone https://github.com/t-mat/gunhound-easybuild.git
+cd gunhound-easybuild
 .\prepare.cmd
-open .\gunhound-easybuild.sln
+msbuild .\gunhound-easybuild.sln /p:Configuration=Release /p:Platform=x64
+cd .\gunhound && gunhound-easybuild_x64_Release.exe
 ```
-
-- ソリューションファイルが開くので、 `x64 - Release` をビルドする
-- `gunhound\gunhound-easybuild_x64_Release.exe` が出力されるので、実行
 
 
 ## 既知の制限
