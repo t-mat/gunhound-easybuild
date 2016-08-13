@@ -11,3 +11,4 @@ gxlib/platform/
 gunhound/opencv_*.dll
 gunhound/*.exe
 gunhound/config.dat
+gunhound/d3dx*.dll
