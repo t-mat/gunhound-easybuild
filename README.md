@@ -41,7 +41,7 @@ git subtree pull --prefix gunhound https://bitbucket.org/garuruLabs/gunhound.git
 
 ## 既知の制限
 
-- `x64 - Release` かつ DirectX9 出力のみしか設定していません
+- `x64 - Release` もしくは `x64 - Debug` かつ DirectX9 出力のみしか設定していません
 
 
 ## ライセンス

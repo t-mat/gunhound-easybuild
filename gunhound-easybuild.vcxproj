@@ -546,6 +546,9 @@
     <ClCompile Include="gxlib\gxLib\util\actManager\CActManager.cpp" />
     <ClCompile Include="gxlib\gxLib\util\CFilePNG.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="gxlib\gxLib\util\CFileTarga.cpp" />
     <ClCompile Include="gxlib\gxLib\util\command\CWazaCommand.cpp" />
