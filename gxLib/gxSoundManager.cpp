@@ -253,7 +253,7 @@ gxBool CSoundManager::SetFade( Sint32 uIndex , Float32 fVolume , Uint32 frm )
 	if( frm <= 0 )
 	{
 		frm = 1;
-		m_Info[ uIndex ].bReq       = gxFalse;
+		m_Info[ uIndex ].bReq       = gxTrue;
 		m_Info[ uIndex ].fVolumeAdd = 1.0f;
 		m_Info[ uIndex ].uStatus |= enSoundReqVolume;
 		return gxTrue;
