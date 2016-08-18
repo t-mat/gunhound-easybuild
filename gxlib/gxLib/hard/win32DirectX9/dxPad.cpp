@@ -3,7 +3,7 @@
 // コントローラー制御( Direct Input version8使用)
 //
 //------------------------------------------------------
-#define INITGUID
+
 #include <gxLib.h>
 #include <gxLib/gx.h>
 //#include <gxLib/hard/machine.h>

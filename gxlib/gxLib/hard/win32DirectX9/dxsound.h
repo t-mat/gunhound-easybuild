@@ -1,6 +1,8 @@
-﻿//#include <dmusici.h>
+#pragma once
+//#include <dmusici.h>
 #include <dsound.h>
 
+/*
 typedef struct StSoundInfo {
 
 	gxBool bPlay;
@@ -29,6 +31,7 @@ typedef struct StSoundInfo {
 	}
 
 } StSoundInfo;
+*/
 
 class CDxSound
 {

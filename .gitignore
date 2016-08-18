@@ -5,6 +5,7 @@ obj/
 *.db
 *.opendb
 *.suo
+*.ipch
 
 gxlib/platform/
 
