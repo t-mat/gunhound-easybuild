@@ -12,7 +12,7 @@
 	#define GX_RELEASE
 #endif
 
-#ifdef WIN32
+#ifndef _WIN64
 	#define GX_BUILD_OPTIONx86
 #else
 	#define GX_BUILD_OPTIONx64
