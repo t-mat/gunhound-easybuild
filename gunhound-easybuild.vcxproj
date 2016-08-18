@@ -97,6 +97,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(SolutionDir)gxLib;$(SolutionDir)gunhound\src;$(SolutionDir)external\DXSDK\include;$(SolutionDir)external\opencv\build\include;$(SolutionDir)external\libvorbis-1.3.5\include</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4018;4244;4267</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -115,6 +116,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(SolutionDir)gxLib;$(SolutionDir)gunhound\src;$(SolutionDir)external\DXSDK\include;$(SolutionDir)external\opencv\build\include;$(SolutionDir)external\libvorbis-1.3.5\include</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4018;4244;4267</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -135,6 +137,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(SolutionDir)gxLib;$(SolutionDir)gunhound\src;$(SolutionDir)external\DXSDK\include;$(SolutionDir)external\opencv\build\include;$(SolutionDir)external\libvorbis-1.3.5\include</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4018;4244;4267</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -157,6 +160,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(SolutionDir)gxLib;$(SolutionDir)gunhound\src;$(SolutionDir)external\DXSDK\include;$(SolutionDir)external\opencv\build\include;$(SolutionDir)external\libvorbis-1.3.5\include</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4018;4244;4267</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
