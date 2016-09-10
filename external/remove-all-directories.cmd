@@ -17,3 +17,5 @@ del CURL.EXE
 del 7-zip.chm
 del license.txt
 del readme.txt
+
+popd

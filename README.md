@@ -8,7 +8,24 @@ VC++2015 以外のビルドに必要なソフトについては、インスト�
 ## どうすればいいの？
 
 - Visual Studio (VC++) 2015 をインストールする
-- 以下のコマンドを実行
+- `git` コマンドが無い場合、以下のコマンドを実行する
+
+```
+cd /d C:\
+mkdir gunhound-easybuild
+cd gunhound-easybuild
+powershell -command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/t-mat/gunhound-easybuild/master/bootstrap.cmd','b.cmd')"
+.\b.cmd
+.\git init
+.\git remote add origin https://github.com/t-mat/gunhound-easybuild.git
+.\git fetch
+.\git checkout -t origin/master
+.\prepare.cmd
+msbuild .\gunhound-easybuild.sln /p:Configuration=Release /p:Platform=x64
+start /D .\gunhound gunhound-easybuild_x64_Release.exe
+```
+
+- `git` コマンドがある場合、以下のコマンドを実行する
 
 ```
 cd /d C:\
